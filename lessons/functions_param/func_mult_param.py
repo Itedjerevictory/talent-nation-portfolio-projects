@@ -10,3 +10,5 @@ record_kiosk_order("Alice", "Latte", "Medium", "Almond", 2)
 record_kiosk_order("Bob", "Cappuccino", "Large", "Whole", 0)
 record_kiosk_order("Charlie", "Espresso", "Small", "None", 1)
 
+
+# A function can accept multiple parameters separated by commas inside its parentheses. These variables are local to the function and can be used anywhere inside its indented body.

@@ -1,11 +1,10 @@
-# Global variable (written on the public whiteboard)
-menu_price = 4.50
+menu_price = 4.50  # Global
 
-def serve_customer(name):
-    # We can read the global variable naturally
-    print(f"Charging {name} ₦{menu_price:.2f} for their latte.")
+def show_price():
+    # Reading is completely safe and permitted
+    print(f"The whiteboard price is: ₦{menu_price:.2f}")
 
-serve_customer("Alice")
+show_price()
 
 
 

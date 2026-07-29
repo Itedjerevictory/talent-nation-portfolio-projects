@@ -16,7 +16,4 @@ run_coffee_cart()
 
 
 
-
-
-
 # When you write a nested function (a function inside a function), the inner function can read variables inside the outer parent function. To modify those parent variables, the inner function must decxlare them using the nonlocal keyword.
