@@ -9,6 +9,17 @@ print(with_tax)
 
 
 
+# # Standard Function Definition
+# def add_half_naira(price):
+#     return price + 0.50
+
+# # Equivalent Lambda Function
+# # Syntax: lambda input_variable: expression_to_return
+# lambda_tax = lambda price: price + 0.50
+
+
+
+
 
 # Before using higher-order functions, you must understand Lambda functions. They are nameless, single-line helper functions.
 

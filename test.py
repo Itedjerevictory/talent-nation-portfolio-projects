@@ -1,12 +1,6 @@
-import numbers
+a_ball = "ball"
 
-
-def count_down(numbers):
-    count = []
-    for i in numbers:
-        if i != 0:
-            count.append(i)
-    return count
-
-total = count_down([5, 4, 3, 2, 1, 0])
-print(total)
+if a_ball == "ball":
+    print(f"{a_ball}" + " is a ball")
+else:
+    print(f"{a_ball}" + " is not a ball")
